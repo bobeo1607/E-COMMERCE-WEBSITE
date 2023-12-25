@@ -1,0 +1,218 @@
+.profile-child,
+.profile-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-16xl);
+  background-color: var(--base-color-white);
+  width: 551px;
+  height: 652px;
+}
+.profile-item {
+  left: 483px;
+  width: 955px;
+}
+.profile-inner {
+  position: absolute;
+  top: 61px;
+  left: 98px;
+  border-radius: 50%;
+  width: 194px;
+  height: 199px;
+  object-fit: cover;
+}
+.nguyen-van-a {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 363px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.name-card {
+  position: absolute;
+  top: 342px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-nguyenvanagmailcom {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 479px;
+  height: 59px;
+  flex-shrink: 0;
+}
+.name-card1,
+.text111 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name-card1 {
+  width: 332px;
+  justify-content: flex-start;
+}
+.text111 {
+  height: 107px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.div10 {
+  position: absolute;
+  top: 470px;
+  left: 98px;
+  width: 397.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.blank-line1 {
+  margin: 0;
+  font-weight: 600;
+}
+.hoang-minh-thao {
+  font-weight: 300;
+}
+.location-120-hoang-minh-thao {
+  margin: 0;
+}
+.note {
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+}
+.location-120-container {
+  position: relative;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 689px;
+  height: 365px;
+  flex-shrink: 0;
+}
+.icon-people-outline {
+  position: relative;
+  width: 86.3px;
+  height: 86.3px;
+  object-fit: cover;
+}
+.delivery-address-details,
+.div11 {
+  position: absolute;
+  font-size: var(--font-size-17xl);
+}
+.div11 {
+  top: 138px;
+  left: 622px;
+  width: 826px;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delivery-address-details {
+  top: 114px;
+  left: 522px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 465px;
+  height: 48px;
+}
+.lightbulbfilament {
+  position: absolute;
+  top: 204px;
+  left: 643px;
+  width: 36.6px;
+  height: 36.6px;
+}
+.icon-email-outline,
+.icon-home,
+.icon-phone,
+.icon-pin-outline {
+  position: absolute;
+  height: 4.91%;
+  width: 3.09%;
+  top: 73.93%;
+  right: 94.63%;
+  bottom: 21.16%;
+  left: 2.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon-email-outline,
+.icon-home,
+.icon-pin-outline {
+  height: 4.75%;
+  width: 2.14%;
+  top: 80.37%;
+  right: 94.41%;
+  bottom: 14.88%;
+  left: 3.45%;
+}
+.icon-home,
+.icon-pin-outline {
+  height: 4.6%;
+  width: 2.07%;
+  top: 30.82%;
+  right: 58.08%;
+  bottom: 64.57%;
+  left: 39.85%;
+}
+.icon-home {
+  height: 4.91%;
+  width: 2.21%;
+  right: 58.36%;
+  bottom: 64.26%;
+  left: 39.43%;
+}
+.group-child13 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-burlywood);
+}
+.logo-icon16 {
+  position: absolute;
+  height: 52.59%;
+  width: 64.74%;
+  top: 23.71%;
+  right: 18.12%;
+  bottom: 23.71%;
+  left: 17.14%;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ellipse-parent10 {
+  position: absolute;
+  height: 11.66%;
+  width: 7.25%;
+  top: 3.53%;
+  right: 91.78%;
+  bottom: 84.81%;
+  left: 0.97%;
+  cursor: pointer;
+}
+.profile8 {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  text-align: left;
+  font-size: var(--title-h2-size);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito-sans);
+}

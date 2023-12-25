@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@300;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login5" id="loginContainer">
+      <div class="welcom-back">Welcom back</div>
+      <div class="glad-to-see-container">
+        <p class="glad-to-see">Glad to see you again </p>
+      </div>
+      <div class="login-to-your">Login to your account below</div>
+      <img class="login-child" alt="" src="./public/rectangle-276@2x.png" />
+
+      <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+      <div class="continue-with-google">Continue with Google</div>
+      <div class="login-item"></div>
+      <img class="facebook-1-icon" alt="" src="./public/facebook-1@2x.png" />
+
+      <div class="continue-with-facebook">Continue with Facebook</div>
+      <div class="login-inner"></div>
+      <div class="login-child1"></div>
+      <div class="email">Email</div>
+      <div class="enter-email">enter email...</div>
+      <div class="login-child2"></div>
+      <div class="password">Password</div>
+      <div class="enter-password">enter password...</div>
+      <div class="login-child3" id="rectangle4"></div>
+      <b class="login6">Login</b>
+      <div class="dont-have-an">Don’t have an account?</div>
+      <div class="forget-password1" id="forgetPasswordText">
+        Forget password?
+      </div>
+      <b class="sign-up-for" id="signUpFor">Sign up for free</b>
+      <div class="ellipse-parent14">
+        <div class="group-child36"></div>
+        <img class="logo-icon21" alt="" src="./public/logo@2x.png" />
+      </div>
+      <i class="ecw11">ECW</i>
+      <div class="login-child4"></div>
+      <div class="login-child5"></div>
+    </div>
+
+    <script>
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./Home.html";
+        });
+      }
+      
+      var forgetPasswordText = document.getElementById("forgetPasswordText");
+      if (forgetPasswordText) {
+        forgetPasswordText.addEventListener("click", function (e) {
+          window.location.href = "./ForgetPassword.html";
+        });
+      }
+      
+      var signUpFor = document.getElementById("signUpFor");
+      if (signUpFor) {
+        signUpFor.addEventListener("click", function (e) {
+          window.location.href = "./SignUp.html";
+        });
+      }
+      
+      var loginContainer = document.getElementById("loginContainer");
+      if (loginContainer) {
+        loginContainer.addEventListener("click", function (e) {
+          window.location.href = "./Home.html";
+        });
+      }
+      </script>
+  </body>
+</html>
